@@ -18,6 +18,9 @@ ul,li{
 nav form{
     justify-content: end;
 }
+nav .small-dev{
+    display: none;
+}
 .navbar-light .navbar-toggler {
 	border: none;
 }
