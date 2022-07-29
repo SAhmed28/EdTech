@@ -5,11 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <link rel="icon" type="image/x-icon" href="images/favicon-education-1.png">
     <title>Learning Time</title>
@@ -19,11 +23,17 @@
         <!-- navbar section starts -->
         <section>
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0 py-4">
                     <a class="navbar-brand" href="#">Learning Time</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="d-flex justify-content-end">
+                      <form class="my-2 my-lg-0 mr-4">
+                        <button class="btn btn-outline-primary my-2 my-sm-0 px-4" type="submit">Register</button>
+                      </form>
+                    
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mx-auto ">
@@ -47,9 +57,6 @@
                         </li>
                       </ul>
 
-                      <form class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-outline-primary my-2 my-sm-0 px-4" type="submit">Register</button>
-                      </form>
                     </div>
                   </nav>
             </div>
@@ -62,27 +69,27 @@
               <div class="carousel-item active">
                 <img class="d-block w-100" src="images/cover/cover-1.png" alt="First slide">
                 <div class="carousel-caption text-center slider-content">
-                  <h1>Get Started Digital Learning</h1>
+                  <h1>Get Started Digital <br> Learning</h1>
                   <p class="mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <a href="#" class="btn btn-primary px-4 py-2 mt-4">Get Started</a>
+                  <a href="#" class="btn learning-btn-primary px-4 py-2 mt-4">Get Started</a>
                 </div>
               </div>
-              <!-- <div class="carousel-item">
+              <div class="carousel-item">
                 <img class="d-block w-100" src="images/cover/cover-2.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block slider-content">
-                  <h1>Get Started Digital Learning</h1>
+                <div class="carousel-caption  slider-content">
+                  <h1>Get Started Digital <br> Learning</h1>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <a href="#">Get Started</a>
+                  <a href="#" class="btn learning-btn-primary px-4 py-2 mt-4">Get Started</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="images/cover/cover-3.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block slider-content">
-                  <h1>Get Started Digital Learning</h1>
+                <div class="carousel-caption slider-content">
+                  <h1>Get Started Digital <br> Learning</h1>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <a href="#">Get Started</a>
+                  <a href="#" class="btn learning-btn-primary px-4 py-2 mt-4">Get Started</a>
                 </div>
-              </div> -->
+              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -108,8 +115,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-6 ">
+        <div class="row courses-cards">
+          <div class="col-lg-12 col-md-12 ">
             <div class="cards d-flex justify-content-between">
               <div class="card my-2">
                 <div class="card-horizontal">
@@ -138,8 +145,8 @@
             </div> 
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-6 ">
+        <div class="row courses-cards">
+          <div class="col-lg-12 col-md-12 ">
             <div class="cards d-flex justify-content-between">
               <div class="card my-2">
                 <div class="card-horizontal">
@@ -168,8 +175,8 @@
             </div> 
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-6 ">
+        <div class="row courses-cards">
+          <div class="col-lg-12 col-md-12 ">
             <div class="cards d-flex justify-content-between">
               <div class="card my-2">
                 <div class="card-horizontal">
@@ -199,17 +206,17 @@
           </div>
         </div>
         <div class="text-center">
-          <a href="#" class="btn btn-primary my-4 px-4 py-2">See More Courses</a>
+          <a href="#" class="btn learning-btn-primary my-4 px-4 py-2">See More Courses</a>
         </div>
       </section>
       <!-- popular courses section ends -->
 
 
       <!-- Register section starts -->
-      <section class="container my-4">
+      <section class="container my-4 register-section">
         <div class="row">
           <div class="col-lg-12">
-            <div class="register d-flex align-items-center justify-content-between bg-primary p-5">
+            <div class="register d-flex align-items-center justify-content-between learning-bg-primary p-5">
               <div class="ready w-50 text-white">
                 <h2 class="pb-2 font-weight-bold">Ready to join?</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -244,7 +251,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn learning-btn-primary">Save changes</button>
                       </div>
                     </div>
                   </div>
@@ -258,7 +265,7 @@
 
 
       <!-- Successfull Students section start -->
-      <section class="container py-4">
+      <section class="container py-4 successfull-student">
         <div class="row">
           <div class="col-lg-12">
             <div class="meet-info w-50">
@@ -305,8 +312,8 @@
               </div>
             </div>
 
-            <div class="d-flex justify-content-center my-5">
-              <a href="#" class="btn btn-primary px-4 py-2">View All</a>
+            <div class="d-flex justify-content-center my-5 view-btn">
+              <a href="#" class="btn learning-btn-primary px-4 py-2">View All</a>
             </div>
 
           </div>
@@ -316,7 +323,7 @@
 
 
       <!-- FAQ section starts -->
-      <section class="container my-4">
+      <section class="container my-4 faq-section">
         <div class="row pb-4">
           <div class="col-lg-12 d-flex justify-content-center">
             <div class="text-center w-50">
@@ -394,11 +401,11 @@
       <!-- FAQ section ends -->
 
       <!-- Truested Section Start -->
-      <section class="container">
+      <section class="container trusted">
         <div class="row py-5">
           <div class="col-lg-12">
             <h2 class="text-center">Trusted by over 800+ companies</h2>
-            <ul class="d-flex justify-content-between py-3">
+            <ul class="d-flex justify-content-between align-items-center py-3">
               <li><img src="images/company/company-1.png" alt="company1"></li>
               <li><img src="images/company/company-2.png" alt="company2"></li>
               <li><img src="images/company/company-3.png" alt="company3"></li>
@@ -411,6 +418,29 @@
       </section>
       <!-- Truested Section Ends -->
     </main>
+
+    <footer class="container-fluid text-white">
+      <div class="container py-4">
+        <div class="row py-5">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <div class="footer-info text-center w-25">
+              <h3>Learning Time</h3>
+              <p>Office 41, Zawaya Buildin, Ghala <br> Muscat, 
+                Sultanate of Oman
+                <br>
+                Privacy Ploicy  |   Terms of use
+              </p>
+              <ul class="d-flex social">
+                <li><a href="#" class="pr-3 text-white"><i class="fa-brands fa-facebook-f fa-fw circle-icon"></i></a></li>
+                <li><a href="#" class="pr-3 text-white"><i class="fa-brands fa-twitter fa-fw circle-icon"></i></a></li>
+                <li><a href="#" class="pr-3 text-white"><i class="fa-brands fa-linkedin-in fa-fw circle-icon"></i></a></li>
+                <li><a href="#" class="text-white"><i class="fa-brands fa-tiktok fa-fw circle-icon"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

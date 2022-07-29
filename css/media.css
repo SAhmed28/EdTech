@@ -1,0 +1,134 @@
+@media only screen and (max-width:688px) {
+    nav form{
+        display:none;
+    }
+    .carousel-item {
+        height:300px;
+      }
+    .carousel-item img {
+        height:100%;
+      }
+    /* .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height: 100% !important;
+    } */
+    .carousel-caption {
+        bottom: 10%;
+        left: 10%;
+        width: 85%;
+    }
+    .carousel-caption h1 {
+        font-size: 1.9rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    .carousel-caption .mt-4, .my-4 {
+        margin-top: 0.4rem !important;
+    }
+
+    .courses .w-50 {
+        width: 90% !important;
+    }
+    .courses h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+
+    .courses-cards .cards{
+        display: block !important;
+    }
+    .courses .card {
+        width: 100%;
+    }
+    .card-horizontal{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-horizontal .img-square-wrapper {
+        width: 100%;
+    }
+    .register-section .register{
+        flex-direction: column;
+        text-align: center;
+    }
+    .register-section .w-50{
+        width: 100% !important;
+    }
+
+    .successfull-student{
+        text-align: center;
+    }
+    .successfull-student .w-50 {
+        width: 100% !important;
+    }
+    .successfull-student .card{
+        margin-bottom: 20px;
+    }
+    .successfull-student .view-btn{
+        margin: 10px 0 !important;
+    }
+    .faq-section .w-50{
+        width: 90% !important;
+    }
+    .faq-section .w-75{
+        width: 100% !important;
+    }
+
+    .trusted{
+        display: none;
+    }
+
+    footer .w-25{
+        width: 80% !important;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .carousel-caption {
+        bottom: 6%;
+        left: 17%;
+        width: 70%;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .courses .w-50{
+        width: 100% !important;
+    }
+    .courses .cards{
+        flex-direction: column;
+
+    }
+    .courses .cards .card{
+        width: 100%;
+    }
+    
+
+    .register{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .successfull-student .card{
+        margin-bottom: 20px;
+    }
+
+    .faq-section .w-50{
+        width: 90% !important;
+    }
+
+    .faq-section .w-75{
+        width: 100% !important;
+    }
+
+    .trusted{
+        display: none;
+    }
+    footer .w-25{
+        width: 50% !important;
+    }
+    footer ul{
+        margin-left: 30px;
+    }
+
+}
